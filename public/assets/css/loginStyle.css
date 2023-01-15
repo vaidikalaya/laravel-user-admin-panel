@@ -1,0 +1,75 @@
+
+.signup-head hr{
+    height: 6px;
+    width: 57px;
+    color: red;
+    opacity: 69%;
+    margin: 7px 0px 30px 0px
+}
+.signup-page ul{
+     list-style-type: none;
+}
+.signup-page ul{
+     list-style-type: none;
+     padding: 0px;
+     font-size: 14px;
+}
+.signup-page svg{
+    fill:#ffffff;
+}
+.signup-page .nav-pills .nav-item{
+    width: 49%;
+    background-color: #6ba7df !important;
+}
+.signup-page .nav-pills .nav-item .nav-link
+      {
+    border-radius: 0;
+}
+.signup-page .nav-pills .active{
+    background-color: #2073bf !important;
+}
+.tab-pane h3{
+    color: #393939;
+    font-weight: bold;
+}
+.form-check{
+     padding: 11px 46px 0 46px;
+}
+.form-check-input{
+    border: 1px solid #282727 !important;
+}
+.form-check-label{
+     color: #29315e;
+     font-weight: bold;
+}
+.next-button button,.submit-button button{
+    background: #e8701d;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+    box-shadow: none !important;
+}
+.next-button p,.submit-button p{
+    font-size: 14px;
+    color: #444;
+    margin: 15px 0 0;
+    text-align: center;
+    font-weight: 500;
+}
+.next-button a,.submit-button a{
+    color: #039be5;
+    text-decoration: none;
+}
+input,select{
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+}
+input[type=text],[type='email'],[type='number'],[type='password'],select{
+    box-shadow: none !important;
+}
+@media screen and (max-width: 768px){
+    .ml-sm-3{
+        margin-left: 10px !important;
+    }
+}

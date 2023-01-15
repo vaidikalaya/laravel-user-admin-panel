@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+/*global css*/
+a{
+    text-decoration: none !important;
+}
+.w-15{
+  width: 15%!important;
+}
+.text-primary2{
+    color:rgb(21, 71, 123) !important;
+}
+.text-bg-primary2{
+  background-color:rgb(21, 71, 123) !important;
+  color: #ffffff !important;
+}
+.btn{
+  box-shadow: none !important;
+}
+.btn-primary2{
+  background-color:rgb(21, 71, 123) !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.bg-primary2{
+    outline: 1px solid rgb(21, 71, 123);
+}
+input[type=text],input[type=email],input[type=password],input[type=number],textarea,select{
+  box-shadow: none !important;
+}
+.only-border-bottom{
+  border-left: 0px !important;
+  border-top: 0px !important;
+  border-right: 0px !important;
+}
+.nav-link-active{
+  border-bottom: 3px solid #15477b;
+  width: fit-content;
+}
+/*top navbar css*/
+.navbar{
+    z-index: 10000 !important;
+    font-family: 'Ubuntu', sans-serif
+}
+.navbar-brand{
+    color:rgb(21, 71, 123) !important;
+}
+
+/*offcanvas left sidebar css*/
+.offcanvas{
+   margin-top: 57px !important;
+   width: 200px !important;
+}
+.offcanvas-body a{
+    color:rgb(21, 71, 123) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+}
+.nav-link {
+  padding: 0.5rem 1rem !important;
+}
+.offcanvas-body a svg{
+    margin-bottom: 2px;
+    height: 16px;
+    width: 16px;
+    margin-right: 0.5rem!important;
+}
+.offcanvas-body span{
+    margin-top: 5px;
+}
+
+/*offcanvas right sidebar css*/
+#rightoffcanvas{
+  width: 250px;
+  margin-top:117px !important;
+}
+#rightoffcanvas a{
+  color: #ffffff !important;
+}
+#rightoffcanvas .offcanvas-body .btn{
+  background-color: rgb(21, 71, 123) !important;
+  color: #ffffff !important;
+}
+
+/*main content area css*/
+main{
+  padding-left: 200px;
+  padding-top: 70px;
+  font-family: Calibri !important;
+  font-size: 18px;
+}
+.main-header{
+  color:rgb(21, 71, 123) !important;
+  line-height: 10px;
+}
+@media screen and (max-width: 768px) {
+ main{
+  padding-left: 0px;
+ }
+}
+#admin-dahsboard .card,#my-activity .card{
+  padding: 0;
+  border-radius: 10px;
+}
+#admin-dahsboard .card h6,#my-activity .card h6{
+  color: #2073bf;
+  font-size: 62px;
+  font-family: Calibri;
+  padding: 28px 0;
+  margin: 0;
+}
+#admin-dahsboard .card p,#my-activity .card p{
+  background: #2073bf;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Calibri;
+  padding: 25px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 0;
+}
+/*dashboard user card css*/
+.user-card .card-header{
+  background-color:#ffffff !important;
+  color:rgb(21, 71, 123);
+  border-bottom: 0px;
+  font-weight: bold;
+}
+.user-card .card-body{
+  margin-top: -27px;
+}
+.user-card svg{
+   fill:rgb(21, 71, 123) !important;
+}
+.user-card .card-footer{
+  background-color:rgb(21, 71, 123) !important;
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+ .user-card{
+   width: 100%;
+ }
+}
+@media screen and (min-width: 992px) {
+ .user-card{
+   width: 80%;
+ }
+}
+
+.modal-header{
+  background-color: rgb(21, 71, 123) !important;
+  color: #ffffff;
+  font-weight: bold !important;
+  height: 40px;
+  letter-spacing: 2px;
+}
+
+/*For Summer Note*/
+.note-editor .dropdown-toggle::after {
+  all: unset;
+}
+.note-toolbar,.note-editor.note-frame .note-statusbar{
+  background: #ffffff !important;
+}
+.note-modal{
+  z-index: 99999 !important;
+}
+.note-editor .note-dropdown-menu, .note-editor .note-modal-footer {
+  box-sizing: content-box;
+}
+#editProfile .modal-content select,
+#addUserModal .modal-content select,
+#profileModal .modal-content select{
+  box-shadow: none !important;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background: #ffffff;
+}
+#editProfile .modal-content input[type=text],input[type=email],input[type=password],input[type=number],input[type=date],
+#addUserModal .modal-content input[type=text],input[type=email],input[type=password],input[type=number],input[type=date],
+#profileModal .modal-content input[type=text],input[type=email],input[type=password],input[type=number],input[type=date]
+{
+  box-shadow: none !important;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background: #ffffff;
+}
